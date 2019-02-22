@@ -1,5 +1,5 @@
   t=dialogs.input("请输入自动刷新的时间，只接受正整数")
-  if (t=="") t=15//不起作用的方法
+  if(t==undefined) t=15//不起作用的方法
 inDouyin = (function() {
     if (currentActivity() == "com.ss.android.ugc.aweme.main.MainActivity") {
         return true;
